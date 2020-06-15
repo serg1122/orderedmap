@@ -42,4 +42,5 @@ func Test_OrderedMap(t *testing.T) {
 
 	assert.IsType(t, &Node{}, m1FirstNode)
 	assert.Nil(t, m1ErrFirstNil)
+
 }
